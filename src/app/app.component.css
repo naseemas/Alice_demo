@@ -1,0 +1,114 @@
+.container {
+  background-color: black;
+  color: white;
+  padding: 20px;
+}
+
+.component {
+  margin-bottom: 20px;
+  margin-top: 70px;
+}
+
+.component h2 {
+  color: white;
+  margin-bottom: 10px;
+}
+
+.form-group {
+  display: inline-block;
+  margin-right: 20px;
+  margin-top: 15px;
+}
+
+.form-group:last-child {
+  margin-right: 0;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-control {
+  width: 250px;
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+.buttons h2 {
+  color: white;
+  margin-bottom: 10px;
+}
+
+.highlight {
+  background-color: white;
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.highlight:hover {
+  background-color: #dddddd;
+}
+input{
+  height: 27px;
+  width:250px;
+}
+
+#toggle code
+.toggle {
+  display: flex;
+  align-items: center;
+}
+
+.toggle input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.toggle-switch {
+  position: relative;
+  width: 60px;
+  height: 34px;
+  background-color: #ccc;
+  border-radius: 34px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.toggle-switch:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  border-radius: 50%;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .toggle-switch {
+  background-color: #2196F3;
+}
+
+input:checked + .toggle-switch:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+.yes-no-label {
+  color: white;
+  font-size: 14px;
+}
